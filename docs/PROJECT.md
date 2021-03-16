@@ -15,19 +15,19 @@ Le DNC permettra à chaque citoyen :
 * De générer automatiquement les justificatifs les plus utilisés ou d'éditer des justificatifs personnalisés (ensemble des données sélectionnées résumées sur un document PDF, téléchargeable via le DNC). 
 
 ## Où trouve-t-on le DNC ?
-En tant que site internet, accessible avec son compte France Connect ou depuis un bouton « mes justificatifs » intégrable à tout formulaire ou site désireux de faciliter la démarche d’un usager.
+En tant que site internet, accessible avec son compte FranceConnect ou depuis un bouton « mes justificatifs » intégrable à tout formulaire ou site désireux de faciliter la démarche d’un usager.
 
 ## Comment le DNC gère les données personnelles ?
-Le DNC **n’est pas** un coffre-fort de documents. Il n’a pas vocation à stocker des documents. Il a vocation à afficher les données et documents qui vont être « appelées » lors de la connexion avec France connect auprès des fournisseurs de données partenaires. Le seul stockage concernera les documents produits et ce sur une période très courte (quelques minutes). Le DNC est construit dans le respect de la réglementation RGPD en vigueur dans le but de protéger le traitement des données des citoyens.
+Le DNC **n’est pas** un coffre-fort de documents. Il n’a pas vocation à stocker des documents. Il a vocation à afficher les données et documents qui vont être « appelés » lors de la connexion avec FranceConnect auprès des fournisseurs de données partenaires. Le seul stockage concernera les documents produits et ce sur une période très courte (quelques minutes). Le DNC est construit dans le respect de la réglementation RGPD en vigueur dans le but de protéger le traitement des données des citoyens.
 
-## Quels sont les grandes fonctions proposées ?
+## Quelles sont les grandes fonctions proposées ?
 
 ### 1. La connexion au DNC. 
-La connexion au DNC se fait via France Connect ou tout autre fournisseur d’identité existant. Aucun autre moyen d’identification ne sera proposé. 
-La procédure de connexion au DNC est actuellement dépendante du service France Connect : un écran listant les moyens de connexion, un écran d’authentification, un écran de consentement, et un écran de résumé du profil.  
+La connexion au DNC se fait via FranceConnect ou tout autre fournisseur d’identité existant. Aucun autre moyen d’identification ne sera proposé. 
+La procédure de connexion au DNC est actuellement dépendante du service FranceConnect : un écran listant les moyens de connexion, un écran d’authentification, un écran de consentement, et un écran de résumé du profil.  
 
 ### 2. L’affichage de « Mes informations »
-L’écran « Mes informations » est composée de « cartouches d’informations » recensant un choix d’informations remonté par l’API du fournisseur de données. 
+L’écran « Mes informations » est composé de « cartouches d’informations » recensant un choix d’informations remonté par l’API du fournisseur de données. 
 5 fournisseurs de données sont aujourd’hui listés : France connect (dont les données proviennent exclusivement de l’INSEE et du fournisseur d’identité utilisé par l’usager lors de sa connexion), la DGFIP (API impôt particulier), la CAF (API particulier), la CNAM (API CNAM). En appelant les API, le DNC peut recenser plus d’informations que celles qui sont affichées dans les cartouches. La fonctionnalité « Voir plus » permet d'afficher l’ensemble des données remontées. La fonctionnalité « signaler une erreur » permet d’accéder facilement à la procédure de signalement d’erreur prévue par le fournisseur de données.  
 
 ### 3. L’affichage de « Mes démarches » (en cours d'étude)
